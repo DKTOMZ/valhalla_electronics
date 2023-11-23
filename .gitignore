@@ -1,0 +1,54 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/client/node_modules
+/admin/node_modules
+/client/.pnp
+/admin/.pnp
+/client/.pnp.js
+/admin/pnp.js
+
+# testing
+/client/coverage
+/admin/coverage
+
+# next.js
+/client/.next/
+/admin/.next/
+/out/
+
+# production
+/client/build
+/admin/build
+
+# misc
+/client/.DS_Store
+/admin/.DS_Store
+/client/*.pem
+/admin/*.pem
+
+# debug
+/client/npm-debug.log*
+/admin/npm-debug.log*
+/client/yarn-debug.log*
+/admin/yarn-debug.log*
+/client/yarn-error.log*
+/admin/yarn-error.log*
+
+# local env files
+/client/.env*.local
+/admin/.env*.local
+
+# prod env files
+/client/.env*.production
+/admin/.env*.production
+
+# vercel
+/client/.vercel
+/admin/.vercel
+
+# typescript
+/client/*.tsbuildinfo
+/admin/*.tsbuildinfo
+/client/next-env.d.ts
+/admin/next-env.d.ts
